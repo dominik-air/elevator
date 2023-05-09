@@ -146,7 +146,7 @@ void Elevator::update(LinkedList<int> &floorsToVisit, LinkedList<int> &elevatorP
 }
 
 // SevenSegmentDisplay implementation
-// Definicja cyfr 7-segmentowych
+// Define digits for 7-segment display
 const byte digits[] = {
   B00000011, // 0
   B10011111, // 1
@@ -161,8 +161,8 @@ const byte digits[] = {
 };
 
 const byte direction[] = {
-  B00010011, // góra
-  B10000011, // dół
+  B00010011, // up
+  B10000011, // down
   B11111101, // --
 };
 
